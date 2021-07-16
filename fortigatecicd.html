@@ -55,13 +55,13 @@ then name the keyvault.
 <p>the correct rights needed for the pipline to read the passwords wil be added when we setup the pipeline
 for now choose <em>review + create</em></p>
 <p>after creating the keyvault add a access policy under the access policy pane create a new access policy select secret managment:<br>
-<img src="/img/fortigate-cicd/keyvault2.png" alt="alt text"></p>
+<a href="img/fortigate-cicd/keyvault2.png" data-lightbox="image-1"><img src="/img/fortigate-cicd/keyvault2.png></a>
 <p>select principal en kies voor de Repository</p>
 <p><img src="https://github.com/bryanster/Fortigate-CICD/blob/main/docs/Pictures/keyvault3.png" alt="alt text"></p>
 <p>add the policy dont forget to save the policy:</p>
 <p><img src="https://github.com/bryanster/Fortigate-CICD/blob/main/docs/Pictures/keyvault4.png" alt="alt text"></p>
 <h3 id="setting-up-the-project-azure-devops">setting up the project azure devops</h3>
-<p>i like to have 1 project containing all the managed network repositories
+<p>i like to have 1 project containing all the managed network repositories  
 once the project is created i prefer to turn of all the unneeded settings in the project.<br>
 under project settings turn off test plans and artifacts these wont be needed.
 under the pipline settings we add a agent pool.<br>
